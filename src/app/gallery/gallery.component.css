@@ -1,0 +1,18 @@
+/* Add your CSS styling here */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  

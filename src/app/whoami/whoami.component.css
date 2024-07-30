@@ -1,0 +1,40 @@
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+#image-items {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content h1 {
+    font-weight: lighter;
+    font-size: 4em;
+}
+
+#content p {
+    font-size: 2em;
+    color:gray
+}
+
+
+.items {
+    width:100%;
+    margin: 10px;
+    
+}
+

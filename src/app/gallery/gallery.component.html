@@ -1,0 +1,11 @@
+<h1>Gallery</h1>
+<h3>Family</h3>
+<div class="grid">
+  <div class="grid-item"
+       *ngFor="let item of items; let i = index"
+       [lightbox]="i"
+       [gallery]="galleryId">
+    <img *ngIf="item.data && item.data.thumb" [src]="item.data.thumb" alt="Gallery Image"/>
+  </div>
+</div>
+
