@@ -1,18 +1,28 @@
-/* Add your CSS styling here */
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+h3 {
+  font-size: 2em;
+  color: tan;
+  font-family: cursive;
+}
 .grid {
     display: flex;
     flex-wrap: wrap;
   }
   
   .grid-item {
-    margin: 10px;
-    width: 200px;
-    height: 200px;
+    margin-right: 5px;
+    width: 450px;
+    height: 300px;
   }
   
   .grid-item img {
-    width: 100%;
+    max-width: 100%;
     height: auto;
     cursor: pointer;
   }
-  

@@ -15,7 +15,9 @@ export class GalleryComponent implements OnInit {
   ngOnInit() {
     // Load items into gallery
     this.items = [
-      new ImageItem({ src: 'https://th.bing.com/th/id/OIP.tLotgCDtzgTdwJcTiXWRCwHaEK?w=267&h=180&c=7&r=0&o=5&pid=1.7', thumb: 'https://th.bing.com/th/id/OIP.tLotgCDtzgTdwJcTiXWRCwHaEK?w=267&h=180&c=7&r=0&o=5&pid=1.7' }),
+      new ImageItem({ src: 'me.jpg', thumb: 'me.jpg' }),
+      new ImageItem({ src: 'me.jpg', thumb: 'me.jpg' }),
+      new ImageItem({ src: 'me.jpg', thumb: 'me.jpg' }),
       new ImageItem({ src: 'me.jpg', thumb: 'me.jpg' }),
       // Add more items as needed
     ];
